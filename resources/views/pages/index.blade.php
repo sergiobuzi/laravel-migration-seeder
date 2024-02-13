@@ -3,7 +3,7 @@
     <title>Home</title>
 @endsection
 @section('content')
-    <h1>Treni partenti alle ore 10</h1>
+    <h1>Treni partenti dopo le ore 17</h1>
     <ul class="row d-flex justify-content-center">
         @foreach ($trains as $train)
             <li class="col-2 card p-2 m-1">
